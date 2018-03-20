@@ -1,5 +1,5 @@
-ARM_CC ?= arm-linux-gnueabihf-gcc
-ARM_CFLAGS = -c -g -Wall -Wextra -O0 -mfpu=neon
+ARM_CC ?= gcc
+ARM_CFLAGS = -c -g -Wall -Wextra -O0 # -mfpu=neon
 ARM_LDFLAGS = -Wall -g -Wextra -O0
 
 EXEC = main_arm main_arm_pre
